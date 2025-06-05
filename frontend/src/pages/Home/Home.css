@@ -1,0 +1,65 @@
+.box {
+  background-color: rgb(250, 250, 250);
+  width: 100vw;
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.powered-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+  margin-top: 10px;
+}
+
+.title-heading h2 {
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+}
+
+.mention-heading h2 {
+  color: blue;
+}
+
+/* Centered Button */
+.analyze-button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.analyze-button:hover {
+  background-color: #0056b3;
+}
+
+h3 {
+  margin-top: 40px;
+}
+
+.powered-text {
+  color: #000000;
+}
+
+.powered-row {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.powered-row img {
+  background-color: white;
+  
+}
